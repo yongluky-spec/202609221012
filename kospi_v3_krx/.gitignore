@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# 실행 중 생성되는 로그/PID/헬스체크 파일 (커밋 대상 아님)
+prediction_log*.jsonl
+logs/
+.run/
+
+# 가상환경
+.venv/
+venv/
+
+# OS/에디터
+.DS_Store
+.vscode/
+
+# 계정/키 (절대 커밋 금지)
+.env
+*.token

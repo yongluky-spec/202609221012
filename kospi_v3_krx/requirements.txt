@@ -1,0 +1,13 @@
+streamlit
+numpy
+pandas
+pykrx
+psutil
+plotly          # 델타/가속도 트리맵 렌더링용 (acceleration_scanner_v1 연동)
+
+# 선택 사항 (GARCH 변동성 계산용, 미설치 시 자동으로 EWMA로 폴백됨)
+# arch
+python-dotenv   # .env 에서 KRX_ID/KRX_PW 자동 로드 (선택, 권장)
+
+# 선택 사항: USE_YF_BASIS_PROXY=1 일 때만 필요
+# yfinance
