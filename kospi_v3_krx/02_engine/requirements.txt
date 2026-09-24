@@ -1,9 +1,14 @@
 streamlit
-numpy
 pandas
-pykrx
-psutil
-plotly          # 델타/가속도 트리맵 렌더링용 (acceleration_scanner_v1 연동)
+numpy
+plotly
+python-dotenv
+yfinance
+arch
+scipy
+statsmodels
+requests
+      # 델타/가속도 트리맵 렌더링용 (acceleration_scanner_v1 연동)
 
 # 선택 사항 (GARCH 변동성 계산용, 미설치 시 자동으로 EWMA로 폴백됨)
 # arch

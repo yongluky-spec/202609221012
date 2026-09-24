@@ -4,5 +4,5 @@ services:
     runtime: python
     rootDir: kospi_v3_krx
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run 02_engine/kospi_engine_v3_realtime.py --server.address 0.0.0.0 --server.port $PORT
+    startCommand: python -m streamlit run 02_engine/kospi_engine_v3_realtime.py --server.address 0.0.0.0 --server.port $PORT
     plan: free
