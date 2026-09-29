@@ -70,7 +70,7 @@ def _load_dotenv_if_available() -> None:
         load_dotenv(os.path.join(_PROJECT_ROOT, ".env"), override=False)
     except Exception:
         pass
-
+# GitHub Secrets 등으로 이미 환경변수가 설정되어 있다면 그대로 유지
 
 class KrxProvider(MarketDataProvider):
     name = "krx"
